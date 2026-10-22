@@ -1,0 +1,6 @@
+{
+  "name": "HyperOS Theme Studio & MTZ Builder",
+  "description": "Visual editor, real-time Xiaomi device simulator, XML validator, and authentic .mtz packager for Xiaomi HyperOS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
