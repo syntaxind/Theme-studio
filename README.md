@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# HyperOS Theme Studio & MTZ Builder
 
-# Run and deploy your AI Studio app
+Editor tema Xiaomi HyperOS: simulator perangkat, validator XML, dan pembuat `.mtz`.
+Semua proses berjalan di browser; tidak ada server atau API key.
 
-This contains everything you need to run your app locally.
+## Jalankan lokal
+```
+npm install
+npm run dev
+```
 
-View your app in AI Studio: https://ai.studio/apps/60395854-1643-4d81-941b-b7f2c8e2b0d5
+## Pasang sebagai aplikasi (PWA)
+Setelah di-deploy ke GitHub Pages, buka link-nya di Chrome HP, lalu pilih
+menu ⋮ → "Instal aplikasi" / "Tambahkan ke layar utama".
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Deploy
+Push ke branch `main`; GitHub Actions membangun dan mempublikasikan ke GitHub Pages.
+Aktifkan sekali: Settings → Pages → Source: **GitHub Actions**.
